@@ -43,6 +43,12 @@ This will restore:
 
 > [!CAUTION]
 > Disabling UAC reduces a layer of Windows security. It is recommended to **revert to default settings** once you are done running your scripts if you do not need permanent unrestricted access.
+
+> [!CAUTION]
+> **Smart App Control** (Windows Security → Smart App Control) may also block script execution even with Unrestricted mode enabled.  
+> If the script still won't run, go to **Windows Security** → **App & browser control** → **Smart App Control** and set it to **Off**.  
+> Note: once disabled, Smart App Control **cannot be re-enabled without reinstalling Windows**.
+
 ---
 
 <p align="center">
