@@ -49,6 +49,14 @@ This will restore:
 > If the script still won't run, go to **Windows Security** → **App & browser control** → **Smart App Control** and set it to **Off**.  
 > Note: once disabled, Smart App Control **cannot be re-enabled without reinstalling Windows**.
 
+<details>
+  <summary>Click here to show how to disable Smart App Control</summary>
+
+![step1](https://imgur.com/Za4xyNP.png)
+![step2](https://imgur.com/ib0r4po.png)
+
+</details>
+
 ---
 
 <p align="center">
