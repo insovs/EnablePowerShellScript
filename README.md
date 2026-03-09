@@ -1,8 +1,7 @@
 # Enable PowerShell Scripts
 This help for enable/disable Powershell script by one click.
 
-This enables PowerShell script execution in **Unrestricted mode**, disables **UAC** to allow scripts to run without interruption, and automatically **unblocks all files** in the script's directory.  
-It also modifies registry keys related to execution policy, PowerShell logging and system restrictions. An option allows you to **revert to default settings**, restoring **Restricted** mode and fully re-enabling UAC. Everything is **safe** and **fully reversible**.
+This enables PowerShell script execution in **Unrestricted mode**, disables **UAC** to allow scripts to run without interruption, and automatically **unblocks all files** in the script's directory. It also modifies registry keys related to execution policy, PowerShell logging and system restrictions. An option allows you to **revert to default settings**, restoring **Restricted** mode and fully re-enabling UAC. Everything is **safe** and **fully reversible**.
 
 ## `1` Installation & Launch
 
