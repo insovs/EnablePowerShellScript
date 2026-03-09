@@ -57,6 +57,8 @@ This will restore:
 
 </details>
 
+
+<blockquote class="imgur-embed-pub" lang="en" data-id="a/DjApxfN" data-context="false" ><a href="//imgur.com/a/DjApxfN"></a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 ---
 
 <p align="center">
