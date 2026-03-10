@@ -6,15 +6,15 @@ This help for enable/disable Powershell script by one click. This enables PowerS
 **Right-click** the `insopti-PSUnlock.bat` file → **"Run as administrator"**.  
 The script will automatically request administrator privileges.
 
-Once launched, a menu will prompt you to choose an action.
+**Once launched**, a menu will prompt you to choose an action.
 
 ## Menu options
 
 | Option | Description |
 |---|---|
-| **`1` Allow Script** | Enables Unrestricted mode + disables UAC + unblocks all files |
-| **`2` Revert default** | Restores Restricted mode + re-enables UAC |
-| **`3` Exit** | Closes the script |
+| **`1` Allow Script** | *Enables Unrestricted mode + disables UAC + unblocks all files* |
+| **`2` Revert default** | *Restores Restricted mode + re-enables UAC* |
+| **`3` Exit** | *Closes the script* |
 
 > [!IMPORTANT]
 > A **restart is recommended** after applying changes for them to take full effect.
