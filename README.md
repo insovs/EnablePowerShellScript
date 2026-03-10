@@ -14,7 +14,6 @@ The script will automatically request administrator privileges.
 |---|---|
 | **`1` Allow Script** | *Enables Unrestricted mode + disables UAC + unblocks all files* |
 | **`2` Revert default** | *Restores Restricted mode + re-enables UAC* |
-| **`3` Exit** | *Closes the script* |
 
 > [!IMPORTANT]
 > A **restart is recommended** after applying changes for them to take full effect.
