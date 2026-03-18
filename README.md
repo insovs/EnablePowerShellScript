@@ -87,14 +87,6 @@ This will restore:
 The script does not delete or modify any user files.
 All changes are limited to registry keys.
 
-## Additional info
-> [!CAUTION]
-> Disabling UAC reduces a layer of Windows security.
-It is recommended to **revert to default settings** once you are done running your scripts if you do not need permanent unrestricted access.
-
-> [!CAUTION]
-> Once **Smart App Control** is disabled, it **cannot be re-enabled without reinstalling Windows**.
-
 ---
 <p align="center">
   <sub>©insopti — <a href="https://guns.lol/inso.vs">guns.lol/inso.vs</a> | For personal use only.</sub>
