@@ -32,6 +32,20 @@ The script will automatically request administrator privileges, then prompt you 
 
 ---
 
+## Without the script
+
+If you prefer doing it manually, open PowerShell as administrator and run:
+
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser -Force
+```
+
+> [!NOTE]
+> If Windows still blocks the script after this, a Group Policy is overriding the setting. Use the `.bat` instead — it bypasses GPO directly via the registry.
+
+---
+
 ## What the script does
 
 | Action | Description |
