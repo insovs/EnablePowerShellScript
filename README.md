@@ -29,26 +29,26 @@ The script will automatically request administrator privileges.
 | **Registry keys** | Modifies execution policy, PowerShell logging and system restriction registry entries |
 
 <details>
-  <summary>► Unrestricted Mode — what it looks like</summary>
+  <summary>► Unrestricted Mode</summary>
 
-![unrestricted](https://imgur.com/YOUR_IMAGE_HERE.png)
+By default, Windows blocks all `.ps1` scripts from running. `Unrestricted` mode removes this restriction entirely, allowing any script to execute regardless of its origin or signature. The script sets this both at the user level and machine level, and also overrides any Group Policy that might enforce a stricter policy.
 </details>
 
 <details>
-  <summary>► UAC — what it looks like</summary>
+  <summary>► UAC</summary>
 
 <img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/b811ae7f-6a4d-4271-b92b-5d7044061c14" />
 </details>
 
 <details>
-  <summary>► Smart App Control — how to disable it</summary>
+  <summary>► Smart App Control</summary>
 
 ![step1](https://imgur.com/Za4xyNP.png)
 ![step2](https://imgur.com/ib0r4po.png)
 </details>
 
 <details>
-  <summary>► Zone.Identifier — what it is and how to unblock manually</summary>
+  <summary>► Zone.Identifier</summary>
 
 When you download a file from the internet, Windows silently attaches a hidden tag called `Zone.Identifier`. This marks the file as coming from an untrusted source and causes Windows to block or warn when you try to run it — even with `ExecutionPolicy` set to `Unrestricted`. The script removes it automatically from all files in its directory.
 
@@ -56,7 +56,7 @@ You can also remove it manually: right-click any file → **Properties** → che
 </details>
 
 <details>
-  <summary>► Registry keys — what gets modified</summary>
+  <summary>► Registry keys</summary>
 
 | Key | What it controls |
 |-----|-----------------|
