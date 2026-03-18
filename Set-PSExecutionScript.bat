@@ -9,8 +9,8 @@ echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"
 if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs"
 pushd "%CD%" & CD /D "%~dp0" & cls
 
-echo  [1] Enable  - Unrestricted + UAC off + SAC off
-echo  [2] Revert  - Restricted
+echo  [1] Enable  (Unrestricted + UAC off + SAC off)
+echo  [2] Revert  (Restricted Only)
 echo  [3] Exit
 echo.
 set /p c=">> "
