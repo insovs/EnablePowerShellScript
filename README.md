@@ -3,7 +3,7 @@
 # Enable PowerShell Scripts
 
 Enable or disable PowerShell script execution on Windows in one click.<br>
-Sets **Unrestricted mode**, disables **UAC** and **Smart App Control**, and automatically **unblocks all files** in the script directory.<br>
+Sets **Unrestricted mode**, disables **UAC** & **Smart App Control**, and automatically **unblocks all files** in the script directory.<br>
 A revert option restores **Restricted mode** at any time. Everything is **safe** and **fully reversible**.
 
 [![Discord](https://img.shields.io/badge/Support-Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/fayeECjdtb)
