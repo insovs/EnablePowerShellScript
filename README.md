@@ -34,13 +34,13 @@ The script will automatically request administrator privileges, then prompt you 
 
 ## What the script does
 
-| | Action | Description |
-|:-:|--------|-------------|
-| 🔓 | **Unrestricted Mode** | Allows all `.ps1` scripts to run regardless of signature or origin |
-| 🔕 | **UAC Disabled** | Removes elevation prompts to allow seamless script automation |
-| 🛡️ | **Smart App Control Disabled** | Stops Windows 11 from blocking unrecognized scripts and apps |
-| 📁 | **File Unblocking** | Removes the `Zone.Identifier` tag from files downloaded from the internet |
-| 🔑 | **Registry Keys** | Modifies execution policy, PowerShell logging and system restriction entries |
+| Action | Description |
+|--------|-------------|
+| **Unrestricted Mode** | Allows all `.ps1` scripts to run regardless of signature or origin |
+| **UAC Disabled** | Removes elevation prompts to allow seamless script automation |
+| **Smart App Control Disabled** | Stops Windows 11 from blocking unrecognized scripts and apps |
+| **File Unblocking** | Removes the `Zone.Identifier` tag from files downloaded from the internet |
+| **Registry Keys** | Modifies execution policy, PowerShell logging and system restriction entries |
 
 <details>
 <summary><b>► Unrestricted Mode</b></summary>
