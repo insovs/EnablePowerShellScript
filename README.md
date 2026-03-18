@@ -57,6 +57,8 @@ The script applies this at both the **user level** and **machine level**, and al
 
 The UAC prompt appears every time an app tries to make changes to your system. Disabling it prevents these interruptions so scripts can run without requiring manual approval each time.
 
+Disabling UAC reduces a layer of Windows security. Revert to default settings or re-enable it once you no longer need unrestricted access.
+
 <img alt="UAC prompt" src="https://github.com/user-attachments/assets/b811ae7f-6a4d-4271-b92b-5d7044061c14" />
 
 </details>
