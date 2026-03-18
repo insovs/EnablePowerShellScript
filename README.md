@@ -39,8 +39,7 @@ By default, Windows blocks all `.ps1` scripts from running. `Unrestricted` mode 
 
 The UAC (User Account Control) prompt appears every time an app tries to make changes to your system. Disabling it prevents these interruptions so scripts can run without needing manual approval each time.
 
-<img width="1707" height="517" alt="sac-steps" src="https://github.com/user-attachments/assets/55bfa253-8186-43d0-b98d-2a51857ca6c6" />
-
+<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/b811ae7f-6a4d-4271-b92b-5d7044061c14" />
 </details>
 
 <details>
@@ -50,8 +49,8 @@ Smart App Control is a Windows 11 feature that blocks apps and scripts it doesn'
 
 > ⚠️ Once disabled, Smart App Control **cannot be re-enabled without reinstalling Windows**.
 
-![step1](https://imgur.com/Za4xyNP.png)
-![step2](https://imgur.com/ib0r4po.png)
+<img width="1707" height="517" alt="sac-steps" src="https://github.com/user-attachments/assets/e16bf1e9-dbfc-4dd2-bf1f-636c1515099f" />
+
 </details>
 
 <details>
