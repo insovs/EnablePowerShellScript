@@ -20,7 +20,6 @@ The script will automatically request administrator privileges.
 > A **restart is recommended** after applying changes for them to take full effect.
 
 ## What the script does
-
 | Action | What it does |
 |---|---|
 | **Unrestricted Mode** | Allows all PowerShell scripts to run regardless of signature or origin |
@@ -38,8 +37,7 @@ The script will automatically request administrator privileges.
 <details>
   <summary>► UAC — what it looks like</summary>
 
-![uac]<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/b811ae7f-6a4d-4271-b92b-5d7044061c14" />
-
+<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/b811ae7f-6a4d-4271-b92b-5d7044061c14" />
 </details>
 
 <details>
@@ -52,17 +50,24 @@ The script will automatically request administrator privileges.
 <details>
   <summary>► Zone.Identifier — what it is and how to unblock manually</summary>
 
-When you download a file from the internet, Windows silently attaches a hidden tag called `Zone.Identifier`. This causes Windows to block or warn when you try to run it — even with `ExecutionPolicy` set to `Unrestricted`. The script removes it automatically.
+When you download a file from the internet, Windows silently attaches a hidden tag called `Zone.Identifier`. This marks the file as coming from an untrusted source and causes Windows to block or warn when you try to run it — even with `ExecutionPolicy` set to `Unrestricted`. The script removes it automatically from all files in its directory.
 
-You can also do it manually: right-click any file → **Properties** → check **Unblock**.
-
-![zone](https://imgur.com/YOUR_IMAGE_HERE.png)
+You can also remove it manually: right-click any file → **Properties** → check **Unblock** at the bottom → **OK**.
 </details>
 
 <details>
   <summary>► Registry keys — what gets modified</summary>
 
-![regedit](https://imgur.com/YOUR_IMAGE_HERE.png)
+| Key | What it controls |
+|-----|-----------------|
+| `HKCU\...\ShellIds\Microsoft.PowerShell` → `ExecutionPolicy` | Per-user execution policy |
+| `HKLM\...\ShellIds\Microsoft.PowerShell` → `ExecutionPolicy` | Machine-wide execution policy |
+| `HKLM\...\Windows\PowerShell` → `ExecutionPolicy` + `EnableScripts` | Group Policy override |
+| `HKLM\...\PowerShell\ModuleLogging` | Disables module logging |
+| `HKLM\...\PowerShell\ScriptBlockLogging` | Disables script block logging |
+| `HKLM\...\PowerShell\Transcription` | Disables transcription logging |
+| `HKLM\...\Policies\System` → `EnableLUA` | UAC on/off |
+| `HKLM\SYSTEM\...\CI\Policy` → `VerifiedAndReputablePolicyState` | Smart App Control on/off |
 </details>
 
 ## Uninstall / Reset
