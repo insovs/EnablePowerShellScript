@@ -1,5 +1,5 @@
 # Enable PowerShell Scripts
-This help for enable/disable Powershell script by one click. This enables PowerShell script execution in **Unrestricted mode**, disables **UAC** and **Smart App Control** to allow scripts to run without interruption, and modifies registry keys related to execution policy and system restrictions. An option allows you to **revert to default settings**, restoring **Restricted** mode. Everything is **safe** and **fully reversible**.
+This help for enable/disable Powershell script by one click. This enables PowerShell script execution in **Unrestricted mode**, disables **UAC** and **Smart App Control** to allow scripts to run without interruption, and automatically **unblocks all files** in the script's directory. It also modifies registry keys related to execution policy, PowerShell logging and system restrictions. An option allows you to **revert to default settings**, restoring **Restricted** mode only. Everything is **safe** and **fully reversible**.
 
 ## Support
 If you need any help or have questions, feel free to join the **[Discord support server](https://discord.com/invite/fayeECjdtb)** — I'll be happy to assist you.
@@ -13,42 +13,72 @@ The script will automatically request administrator privileges.
 ## Menu options
 | Option | Description |
 |---|---|
-| **`1` Enable** | *Enables Unrestricted mode + disables UAC + disables Smart App Control* |
-| **`2` Revert** | *Restores Restricted mode* |
+| **`1` Enable** | *Enables Unrestricted mode + disables UAC + disables Smart App Control + unblocks files* |
+| **`2` Revert** | *Restores Restricted mode only* |
 
 > [!IMPORTANT]
 > A **restart is recommended** after applying changes for them to take full effect.
 
 ## What the script does
+
 | Action | What it does |
 |---|---|
 | **Unrestricted Mode** | Allows all PowerShell scripts to run regardless of signature or origin |
 | **UAC Disabled** | Removes privilege elevation prompts to allow seamless script automation |
 | **Smart App Control Disabled** | Prevents Windows 11 from blocking unrecognized scripts and apps |
-| **Registry keys** | Modifies execution policy and system restriction registry entries |
+| **File Unblocking** | Removes the `Zone.Identifier` mark from files downloaded from the internet |
+| **Registry keys** | Modifies execution policy, PowerShell logging and system restriction registry entries |
+
+<details>
+  <summary>► Unrestricted Mode — what it looks like</summary>
+
+![unrestricted](https://imgur.com/YOUR_IMAGE_HERE.png)
+</details>
+
+<details>
+  <summary>► UAC — what it looks like</summary>
+
+![uac](https://imgur.com/YOUR_IMAGE_HERE.png)
+</details>
+
+<details>
+  <summary>► Smart App Control — how to disable it</summary>
+
+![step1](https://imgur.com/Za4xyNP.png)
+![step2](https://imgur.com/ib0r4po.png)
+</details>
+
+<details>
+  <summary>► Zone.Identifier — what it is and how to unblock manually</summary>
+
+When you download a file from the internet, Windows silently attaches a hidden tag called `Zone.Identifier`. This causes Windows to block or warn when you try to run it — even with `ExecutionPolicy` set to `Unrestricted`. The script removes it automatically.
+
+You can also do it manually: right-click any file → **Properties** → check **Unblock**.
+
+![zone](https://imgur.com/YOUR_IMAGE_HERE.png)
+</details>
+
+<details>
+  <summary>► Registry keys — what gets modified</summary>
+
+![regedit](https://imgur.com/YOUR_IMAGE_HERE.png)
+</details>
 
 ## Uninstall / Reset
 Simply re-run the script and select option **`2` Revert**.  
 This will restore:
 - PowerShell `ExecutionPolicy` → **Restricted**
+- All logging policies → **restored**
 
 > [!NOTE]
-> The script does not delete or modify any user files. All changes are limited to registry keys and can be fully reverted at any time.
+> Revert does **not** touch UAC or Smart App Control. The script does not delete or modify any user files. All changes are limited to registry keys.
 
 ## Additional info
 > [!CAUTION]
 > Disabling UAC reduces a layer of Windows security. It is recommended to **revert to default settings** once you are done running your scripts if you do not need permanent unrestricted access.
 
 > [!CAUTION]
-> **Smart App Control** (Windows Security → Smart App Control) may also block script execution even with Unrestricted mode enabled.  
-> Note: once disabled, Smart App Control **cannot be re-enabled without reinstalling Windows**.
-
-<details>
-  <summary>Click here to show how to disable Smart App Control</summary>
-
-![step1](https://imgur.com/Za4xyNP.png)
-![step2](https://imgur.com/ib0r4po.png)
-</details>
+> Once **Smart App Control** is disabled, it **cannot be re-enabled without reinstalling Windows**.
 
 ---
 <p align="center">
