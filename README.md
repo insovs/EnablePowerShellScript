@@ -113,12 +113,7 @@ Re-run the script and select **`2` Revert**. This will restore:
 - All PowerShell logging policies → **restored**
 
 > [!NOTE]
-> Revert does **not** touch UAC or Smart App Control. No user files are modified. All changes are limited to registry keys and can be undone at any time.
-
----
-
-> [!CAUTION]
-> Disabling UAC reduces a layer of Windows security. Revert to default settings once you no longer need unrestricted access.
+> All changes are limited to registry keys and can be undone at any time. Revert does **not** touch UAC or Smart App Control. No user files are modified.
 
 ---
 
