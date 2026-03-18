@@ -43,8 +43,7 @@ By default, Windows blocks all `.ps1` scripts from running. `Unrestricted` mode 
 <details>
   <summary>► Smart App Control</summary>
 
-![step1](https://imgur.com/Za4xyNP.png)
-![step2](https://imgur.com/ib0r4po.png)
+![step 1&2]<img width="1707" height="517" alt="sac-steps" src="https://github.com/user-attachments/assets/c34213bd-8e2c-4a45-bbe6-3d4b17dd0584" />
 </details>
 
 <details>
