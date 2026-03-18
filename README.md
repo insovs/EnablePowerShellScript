@@ -39,7 +39,8 @@ By default, Windows blocks all `.ps1` scripts from running. `Unrestricted` mode 
 
 The UAC (User Account Control) prompt appears every time an app tries to make changes to your system. Disabling it prevents these interruptions so scripts can run without needing manual approval each time.
 
-<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/b811ae7f-6a4d-4271-b92b-5d7044061c14" />
+<img width="1707" height="517" alt="sac-steps" src="https://github.com/user-attachments/assets/55bfa253-8186-43d0-b98d-2a51857ca6c6" />
+
 </details>
 
 <details>
