@@ -38,7 +38,8 @@ The script will automatically request administrator privileges.
 <details>
   <summary>► UAC — what it looks like</summary>
 
-![uac](https://imgur.com/YOUR_IMAGE_HERE.png)
+![uac]<img width="1536" height="864" alt="image" src="https://github.com/user-attachments/assets/b811ae7f-6a4d-4271-b92b-5d7044061c14" />
+
 </details>
 
 <details>
