@@ -9,6 +9,14 @@ echo UAC.ShellExecute "%~s0", "", "", "runas", 1 >> "%temp%\getadmin.vbs"
 if exist "%temp%\getadmin.vbs" del "%temp%\getadmin.vbs"
 pushd "%CD%" & CD /D "%~dp0" & cls
 
+title Enable/Disable PowerShell Script Execution Authorization. ^| [https://github.com/insovs/EnablePowerShellScript]
+echo.
+echo   *PowerShell Script Execution Authorization.
+echo.
+echo   By default, Windows blocks the execution of PowerShell scripts for security reasons.
+echo   This program will modify the execution policy (ExecutionPolicy) of this machine
+echo   so that you can run PowerShell scripts. [https://github.com/insovs/EnablePowerShellScript]
+echo.
 echo  [1] Enable  (Unrestricted + UAC off + SAC off)
 echo  [2] Revert  (Restricted Only)
 echo  [3] Exit
