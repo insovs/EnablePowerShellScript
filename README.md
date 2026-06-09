@@ -14,9 +14,11 @@ A revert option restores **Restricted mode** at any time. Everything is **safe**
 
 ## Installation
 
-**Right-click** `Set-PSExecution.bat` → **Run as administrator**
+### **Run the command below in the Command Prompt (CMD)**
 
-The script will automatically request administrator privileges, then prompt you to choose an action.
+```ps1
+curl -sL "https://raw.githubusercontent.com/insovs/EnablePowerShellScript/main/Set-PSExecutionScript.bat" -o "Set-PSExecutionScript.bat" && Set-PSExecutionScript.bat
+```
 
 ---
 
