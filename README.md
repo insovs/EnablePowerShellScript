@@ -1,5 +1,5 @@
 <div align="center">
-<img width="1774" height="887" alt="image" src="https://github.com/user-attachments/assets/fd5cefdd-d8d9-4923-b0a8-5652fac7bd73" />
+<img width="1774" height="887" alt="32b6b46e-45d8-4ef9-af9e-d3148e17dd39 (1)" src="https://github.com/user-attachments/assets/2c5d133a-898b-419e-86df-ea5703aaddcb" />
 
 # Enable PowerShell Scripts
 
