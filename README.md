@@ -1,13 +1,14 @@
 <div align="center">
-<img width="1774" height="887" alt="32b6b46e-45d8-4ef9-af9e-d3148e17dd39 (1)" src="https://github.com/user-attachments/assets/2c5d133a-898b-419e-86df-ea5703aaddcb" />
+<img width="1805" height="871" alt="image" src="https://github.com/user-attachments/assets/bea68e03-fb40-49ac-ae2d-7892347da8b8" />
+  
+[![Discord](https://img.shields.io/badge/Support-Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/fayeECjdtb)
 
-# Enable PowerShell Scripts
+---
 
 Enable or disable PowerShell script execution on Windows in one click.<br>
 Sets **Unrestricted mode**, disables **UAC** & **Smart App Control**, and **unblocks all files** in the script directory.<br>
 A revert option restores **Restricted mode** at any time. Everything is **safe** and **fully reversible**.
 
-[![Discord](https://img.shields.io/badge/Support-Discord-5865F2?logo=discord&logoColor=white)](https://discord.com/invite/fayeECjdtb)
 
 </div>
 
