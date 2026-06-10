@@ -14,7 +14,7 @@ A revert option restores **Restricted mode** at any time. Everything is **safe**
 
 ---
 
-## Installation
+## Installation / Usage
 
 ### **Run the command below in the Command Prompt (CMD)**
 
